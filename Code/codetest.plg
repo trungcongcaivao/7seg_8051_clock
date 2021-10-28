@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\Hoc VDK\test\Code\codetest.uvproj
+Project File Date:  10/27/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(3): error C141: syntax error near '7'
+MAIN.C(6): error C141: syntax error near '}'
+MAIN.C(11): error C141: syntax error near 'SEG'
+MAIN.C(19): error C202: 'LED7SEGCA': undefined identifier
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(3): error C141: syntax error near '7'
+MAIN.C(6): error C141: syntax error near '}'
+MAIN.C(11): error C141: syntax error near 'SEG'
+MAIN.C(19): error C141: syntax error near 'SEG'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(6): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=20.0 xdata=0 code=205
+creating hex file from "codetest"...
+"codetest" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GIAM1?MAIN
+Program Size: data=20.0 xdata=0 code=202
+creating hex file from "codetest"...
+"codetest" - 0 Error(s), 1 Warning(s).
